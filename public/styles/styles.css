@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.container {
+    max-width: 925px;
+    margin: 0 auto;
+    padding: 40px 1em 0 1em;
+}
+
+.containerSearch {
+  clear: both;
+  max-width: 925px;
+  margin: 47px auto;
+  padding: 40px 1em 0 1em;
+}
+
+.containerTable {
+  max-width: 925px;
+  margin: 54px auto;
+  padding: 40px 1em 0 1em;
+  background: #FF6347;
+}
+
+.card-deck {
+  margin-top: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    margin: 27px auto 0;
+    max-width: 215px;
+}
+
+.logo {
+    font-size: 48px;
+    font-weight: bold;
+    color: #FF6347;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a {
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+main {
+    display: flex;
+    flex-flow: column;
+}
+.hero {
+    text-align: center;
+
+}
+.hero h1 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.hero p {
+    font-size: 12px;
+    font-weight: 400;
+    max-width: 202px;
+    line-height: 14px;
+    margin: 3em auto;
+}
+.hero p:before {
+    content: "";
+    display: block;
+    width: 60px;
+    border: 2px solid #0EB26D;
+    margin: 1em auto;
+}
+.hero a {
+    background: #FF6347;
+    padding: 1em 3em;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400; 
+}
+figure {
+  text-align: center;
+
+}
+figure img {
+  margin: 3em auto 0;
+  width: 344px;
+}
+
+.midii {
+  width: 344px !important;
+  margin: 142px auto;
+}
+
+#signin {
+  width: 100%;
+  margin: 50px 20px;
+}
+
+#signup {
+  width: 100%;
+  margin: 50px 20px;
+}
+
+form input {
+  width: 90%;
+}
+
+form .btn {
+  margin-top: 100px;
+  background-color: #FF6347;
+  color: white;
+  border-radius: 50px;
+}
+
+
+@media screen and (min-width: 820px) {
+    .logo {
+      float: left;
+    }
+
+  header {
+    display: flex;
+    justify-content:  space-between;
+    flex-flow: wrap;
+    align-items: center;
+  }
+  nav {
+    float: right;
+    margin: 0;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    white-space: nowrap;
+  }
+  nav ul li {
+    list-style: none;
+    padding: 0.5em 2em;
+  }
+  navul li a {
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  .highlight {
+    border: 2px solid #47FFB1;
+    border-radius: 50px;
+  }
+
+  .mid {
+    margin: 133px auto;
+  }
+
+  .hero container {
+    margin-top: 133px;
+  }
+  .hero {
+    text-align: left;
+  }
+  .hero h1 {
+    font-size: 48px;
+  }
+  .hero p:before {
+    margin: 1em 0;
+  }
+  .hero p {
+    font-size: 24px;
+    line-height: 24px;
+    padding: 0;
+    margin: 0 0 3em 0;
+  }
+  .hero a {
+    background: #FF6347;
+  }
+  
+  figure img {
+    width: 596px;
+    margin: 0;
+  }
+
+}
+
+.device {
+  float: right;
+}
+
+.midi {
+  width: 713px !important;
+  margin: 142px auto;
+}
+
+#signin {
+  width: 639px;;
+  margin: 209px auto;
+}
+
+#signup {
+  width:639px;
+  margin: 209px auto;
+
+}
+
+form input {
+  width: 639px;
+  margin: 0 auto;
+}
+
+form .btn {
+  margin: 92px 245px; 
+  background-color: #FF6347;
+  color: white;
+  border-radius: 50px;
+  width: 148px; 
+}
+
+.containerDash {
+  margin: 90px auto;
+  text-align: center;
+}
+
+.card {
+  margin: 20px 10% !important;
+}
