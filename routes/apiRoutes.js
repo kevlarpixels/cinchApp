@@ -29,10 +29,4 @@ module.exports = function (app) {
 
     });
 
-  });
-
-}
-})
-})
-}
-
+  })};
